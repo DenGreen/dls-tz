@@ -1,0 +1,89 @@
+@import "../../scss/fonts.scss";
+
+.popupBox {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(66, 66, 66, 0.507);
+  z-index: 20;
+  cursor: pointer;
+}
+
+.box {
+    max-width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #fff;
+  cursor: default;
+}
+
+.close {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.boxOfWidth {
+  max-width: 360px;
+}
+
+.img {
+  width: 360px;
+  height: 230px;
+}
+
+.tags {
+  display: block;
+  padding-top: 1rem;
+  color: #eb0028;
+  font-size: 0.81rem;
+  @include r7;
+  line-height: 13px;
+}
+
+.title {
+  display: block;
+  padding-top: 1rem;
+  color: #000;
+  @include r7;
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+.wrapper {
+  display: flex;
+  padding-top: 1rem;
+  gap: 0.31rem;
+  align-items: center;
+}
+
+.autor {
+  color: #000;
+  font-size: 0.75rem;
+  @include r5;
+  line-height: 12px;
+}
+
+.date,
+.views {
+  color: #9b9b9b;
+  font-size: 0.75rem;
+  @include r4;
+  line-height: 12px;
+}
+
+.text {
+  padding-top: 1rem;
+  color: #929292;
+  font-size: 0.87rem;
+  @include r4;
+  line-height: 20px;
+}
